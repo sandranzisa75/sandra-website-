@@ -1,0 +1,87 @@
+body{
+    background-color: #f0f8ff;
+    font-family:Arial, sans-serif;
+    text-align:center;
+    padding: 50px;
+}
+
+h1{
+    color:#2c3e50;
+}
+p{
+    color:#555;
+    font-size:18px;
+}
+.profile-pic {
+    border-radius: 50%;
+    margin:20px auto;
+    display: block;
+    width: 150px;
+    height:150px;
+}
+
+.about, .projects, .contact{
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2{
+    color: #006699;
+}
+
+ul {
+    text-align: left;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input, textera {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #006699;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    body{
+        padding: 20px;
+    }
+
+    .about, .projects, .contact{
+        width: 100px;
+        padding: 15px;
+    }
+
+    .profie-pic{
+        width: 100px;
+        height: 100px;
+    }
+
+    h1{
+        font-size: 24px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    p, Ii, input, textera {
+        font-size: 16px;
+    }
+}
